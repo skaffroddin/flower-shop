@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
 /* Banner style */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,26 +13,28 @@
     max-width: 100%;
     height: 516px;
 
-background: rgba(229, 84, 115, 0.10)
+    background: rgba(229, 84, 115, 0.10)
 }
 
 
-.ban-text  h5{
+.ban-text h5 {
     font-size: 60px;
     padding: 0px 108px 9px;
 }
+
 .ban-text p {
-    padding:15px 113px;
+    padding: 15px 113px;
     font-weight: 350;
 }
+
 /* Button style */
-.btn-primary{
- background-color: #E55473;
- border: none;
- border-radius: 8px;
- padding: 13px 19px;
- color: white;
- margin-left: 112px;
+.btn-primary {
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 19px;
+    color: white;
+    margin-left: 112px;
 
 }
 
@@ -42,81 +45,82 @@ background: rgba(229, 84, 115, 0.10)
 }
 
 /* Our featured style*/
-.our-featured{
+.our-featured {
     text-align: center;
-    margin:  60px 50px 60px;
+    margin: 60px 50px 60px;
 
 }
-.our-featured h5{
- font-size: 23px;
+
+.our-featured h5 {
+    font-size: 23px;
 }
+
 .our-featured p {
     font-size: 14px;
     color: rgba(39, 39, 39, 0.60);
     padding: 9px 300px 9px 300px;
     font-weight: 350px;
 }
-.our-featured-img{
+
+.our-featured-img {
     margin-top: 30px;
-    
+
 }
+
 .our-featured-img ul {
     display: flex;
     list-style: none;
     text-decoration: underline;
-    }
-    .our-featured-img ul li{
+}
 
-        padding: 16px;
+.our-featured-img ul li {
+
+    padding: 16px;
     margin-left: 213px;
     margin-top: -3px;
     margin-right: -69px;
-    }
+}
 
 
 .our-featured-img img {
-       width: 201px;
+    width: 201px;
     height: 252px;
     margin: 0px 25px 0px 25px;
     padding: 34px 18px 0px 18px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 
-    
-
-
 }
 
-.secound{
+.secound {
     border-radius: 3px;
     background: rgba(39, 39, 39, 0.05);
     max-width: 831px;
     margin: auto;
     height: 217px;
-    
+
 
 }
-.secound-items{
+
+.secound-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding: 62px
 }
+
 .secound-items img {
     width: 60px;
     height: 60px;
 }
-.secound-items-text{
+
+.secound-items-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin: -40px 10px
 }
-
-
-
-
-
 
 
 
@@ -125,17 +129,29 @@ background: rgba(229, 84, 115, 0.10)
 
 
 /* Footer style */
-.main-ft{
-    background-color:  #111010;
+.main-ft {
+    background-color: #111010;
     color: white;
     text-align: center;
+    height: 189px;
+    width: 100%;
+    padding-top: 73px;
 }
-.text-color{
-    color:#E55473;
+
+.text-color {
+    color: #E55473;
+
+}
+
+.main-ft p {
+    padding: 8px 320px 0px 320px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-weight: 300;
 }
 
 /* Foooter end */
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,56 +159,65 @@ background: rgba(229, 84, 115, 0.10)
     max-width: 100%;
     height: 375px;
     padding: 10px 180px 0px 180px;
-background: rgba(229, 84, 115, 0.10)
+    background: rgba(229, 84, 115, 0.10)
 }
-.hot-deal img{
+
+.hot-deal img {
     height: 324px;
     width: 234px;
 
 }
+
 /* Insta style */
-.insta-text{
+.insta-text {
     text-align: center;
-    margin-top:52px;
+    margin-top: 52px;
     margin-bottom: 30px;
 }
-.insta-image img{
+
+.insta-image img {
     width: 208px;
     height: 243px;
 }
-.insta-image{
+
+.insta-image {
     display: flex;
     justify-content: center;
-    gap:12px;
+    gap: 12px;
     margin-bottom: 66px
 }
-.insta-text h5{
+
+.insta-text h5 {
     font-size: 23px;
 
 }
-.insta-text p{
-    
-    padding:  17px 350px 6px 350px;
+
+.insta-text p {
+
+    padding: 17px 350px 6px 350px;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
+    text-align: center;
 }
-.btn-primary2{
-background-color: #E55473;
-border: none;
-border-radius: 8px;
-padding: 8px 20px;
-color: white;
-display: flex;
-margin: auto;
+
+.btn-primary2 {
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    color: white;
+    display: flex;
+    margin: auto;
 }
-.hot-deal-text h5{
+
+.hot-deal-text h5 {
     font-size: 27px
-    
 }
-.off{
-color: #e55473;
+
+.off {
+    color: #e55473;
 }
-.get-latest-deals{
+
+.get-latest-deals {
     background: url("image/Rectangle-9.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -203,29 +228,29 @@ color: #e55473;
     margin-bottom: 60px;
 
 }
-.main-form{
+
+.main-form {
     display: flex;
     max-width: 80%;
     padding: 10px 0px 10px 277px
 }
 
-.get-latest-deals input[type="text"]{
-    background-color:white;
+.get-latest-deals input[type="text"] {
+    background-color: white;
     border-radius: 5px;
     width: 58%;
     height: 33px;
     color: rgba(39, 39, 39, 0.60);
     border: 0px;
-    padding: 0px 0px 0px 8px ;
-}
-.get-latest-deals input[type="button"]
-{
- background-color: #E55473;
- border: none;
- border-radius: 8px;
- padding: 9px;
- color: white;
- margin-left: 10px;
- 
+    padding: 0px 0px 0px 8px;
 }
 
+.get-latest-deals input[type="button"] {
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+    color: white;
+    margin-left: 10px;
+
+}
