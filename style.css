@@ -87,6 +87,32 @@ background: rgba(229, 84, 115, 0.10)
 
 }
 
+.secound{
+    border-radius: 3px;
+    background: rgba(39, 39, 39, 0.05);
+    max-width: 831px;
+    margin: auto;
+    height: 217px;
+    
+
+}
+.secound-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.secound-items img {
+    width: 60px;
+    height: 60px;
+}
+.secound-items-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
 
 
 
