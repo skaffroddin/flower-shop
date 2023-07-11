@@ -56,9 +56,33 @@ background: rgba(229, 84, 115, 0.10)
     padding: 9px 300px 9px 300px;
     font-weight: 350px;
 }
+.our-featured-img{
+    margin-top: 30px;
+    
+}
+.our-featured-img ul {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    }
+    .our-featured-img ul li{
+
+        padding: 16px;
+    margin-left: 213px;
+    margin-top: -3px;
+    margin-right: -69px;
+    }
+
+
 .our-featured-img img {
-    width: 310px;
-height: 428px;
+       width: 201px;
+    height: 252px;
+    margin: 0px 25px 0px 25px;
+    padding: 34px 18px 0px 18px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    
 
 
 }
